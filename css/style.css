@@ -1,0 +1,76 @@
+.main-text
+{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.fa-book-open
+{
+    color: #0ABDE3
+}
+.book-word
+{
+    color: #25CCF7;
+}
+.input-container
+{
+    width: 50%;
+    margin: auto;
+}
+.title-input,.author-input,.bookno-input
+{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #0ABDE3;
+}
+.submitBtn
+{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #25ccf7;
+    color: #fff;
+    background-color: #25ccf7;
+}
+
+.give-message
+{
+    width: 100%;
+    background-color:#26ae60;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 1;
+}
+.mylist
+{
+    list-style-type: none;
+    text-align: center;
+    
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+}
+.book-item
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:#FF4848;
+    margin-bottom: 5px;
+    color: #fff;
+    border-radius: 5px;
+}
+.delBtn
+{
+    margin-left: 40px;
+    background-color: #FF4848;  
+    cursor: pointer;
+    border: none;
+}
+.fa-trash-alt
+{
+    color: #fff;
+}
